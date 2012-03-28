@@ -1,0 +1,55 @@
+This is a simple OpenGL demo that demonstrats quaternion based rotations 
+for flight mechanics.  This project also uses the GLUT library so you must have
+glut installed to run this as a Visual Studio project.  
+There is an executable in the downloads section that was compiled
+on a x64 windwos 7 machaine.  This exe will only run if you have glut32.dll on your 
+machine.
+
+Source files:
+FlightSim.cpp (contains main)
+Quaternion.cpp
+Vector3D.cpp
+Vector3D.h
+Quaternion.h
+
+To install glut in windows:
+
+1. Download the glut binaries for windows.  They can be found at this link: 
+http://user.xmission.com/~nate/glut/glut-3.7.6-bin.zip
+
+2.  Create a folder called 
+'GL in C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\
+copy glut.h to this folder.  The path of glut.h should be 
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\GL\glut.h
+
+3. Copy glut32.lib to C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib
+
+4. Copy glut32.dll to your SysWOW or System32 depending on if you you are running
+32bit or 64bit windows. To be safe you can just copy it to both directories
+
+Flight Controls:
+
+Flight--------------------------------
+x - roll right
+z - roll left
+f - nose down
+v - nose up
+
+Camera--------------------------------
+u - increase camera reference point
+j - decrease camera reference point
+o - move camera forward
+l - move camera backward
+i - move camera up
+k - move camera down
+
+Non rotational movements--------------
+w - up
+d - down
+s - left
+d - right
+
+Esc - close program
+b - reset plane
+
+
