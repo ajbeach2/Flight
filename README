@@ -6,8 +6,7 @@ on a x64 windows 7 machine.  This exe will only run if you have glut32.dll on yo
 machine.
  
 Here is a video of the program in action:
-http://youtu.be/DD7r2kOKf4M
-
+http://youtu.be/GuQSfoz75f0
  
 Source files: 
 FlightSim.cpp (contains main) 
