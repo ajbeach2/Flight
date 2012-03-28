@@ -27,7 +27,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\GL\glut.h
 4. Copy glut32.dll to your SysWOW64 or System32 depending on if you you are running 
 32bit or 64bit windows. To be safe you can just copy it to both directories 
  
-Flight Controls: 
+Controls 
  
 Flight-------------------------------- 
 x - roll right 
