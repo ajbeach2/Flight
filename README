@@ -21,7 +21,7 @@ To install glut in windows:
 http://user.xmission.com/~nate/glut/glut-3.7.6-bin.zip 
  
 2.  Create a folder called  
-'GL in C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ 
+'GL' in C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ 
 copy glut.h to this folder.  The path of glut.h should be  
 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\GL\glut.h 
  
