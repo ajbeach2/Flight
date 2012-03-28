@@ -572,19 +572,6 @@ void keyboard(unsigned char key, int x, int y)
 		transform = Temp1;
 		speed = .1;		      //reset the speed
 	}
-
-	if(key == (int)'n')
-	{
-		printf("in n\n");
-		particlePos[0] = planePos[0];
-		particlePos[1] = planePos[1];
-		particlePos[2] = planePos[2];
-
-		Vector3D base1 = Vector3D(0,0,1);
-		particleVel = transform * base1;
-
-	}
-
 }
 
 
