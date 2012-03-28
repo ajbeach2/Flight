@@ -386,11 +386,7 @@ void timer(int v)
 
 	//printf("%i\n", counter);
 	if(counter <= 0 )
-	{
-		
-		
-
-		
+	{	
 		if( rightFlapAngle > 0)
 			rightFlapAngle -= 1;
 		else if(rightFlapAngle < 0)
@@ -401,7 +397,6 @@ void timer(int v)
 			leftFlapAngle -= 1;
 		else if(leftFlapAngle < 0)
 			leftFlapAngle += 1;
-
 
 	}
 
